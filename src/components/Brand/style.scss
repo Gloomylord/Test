@@ -1,0 +1,28 @@
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #444444;
+}
+
+.logo {
+  display: block;
+  margin-right: 15px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.subtitle {
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 0;
+}

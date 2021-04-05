@@ -1,0 +1,12 @@
+export type Styles = {
+    footer: string,
+    container: string,
+    copyright: string,
+    top: string
+};
+
+export type ClassName = keyof Styles;
+
+declare const s: Styles;
+
+export default s;

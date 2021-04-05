@@ -1,0 +1,42 @@
+:root {
+  font-family: 'Lato';
+  --green-background: #1bbc9b;
+  --dark-color: #444;
+  --light-color: #fff;
+}
+
+.far {
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+*, *:after, *:before {
+  font-family: 'Lato';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+}

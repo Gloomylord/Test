@@ -1,0 +1,113 @@
+.contact {
+  background: #ecf0f1;
+  text-align: center;
+  width: 100%;
+  color: var(--dark-color);
+  padding: 50px 0 60px;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 65px;
+}
+
+.title {
+  font-size: 30px;
+  margin: 0 0 20px;
+  padding: 0 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 0 50px 0;
+  padding: 0 20px;
+}
+
+.form {
+  flex: 0 1 50%;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapContainer {
+  flex: 0 1 50%;
+  margin-left: 25px;
+}
+
+.mapTitle {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.map {
+  height: 360px;
+  position: relative;
+  background: #dcdedf;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 0 20px;
+  padding: 15px 0 0;
+}
+
+.input {
+  flex: 0 1 calc(50% - 10px);
+  min-width: 50px;
+}
+
+.input, .message {
+  border: 0;
+  padding: 20px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.message {
+  width: 100%;
+  resize: none;
+  flex-grow: 1;
+  margin: 0 0 25px;
+}
+
+.button {
+  align-self: flex-end;
+}
+
+@media (max-width: 970px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .mapContainer {
+    flex: 0 1 auto;
+    width: 100%;
+    margin: 25px 0 0;
+  }
+  .form {
+    flex: 0 1 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 0 50px;
+  }
+  .subtitle {
+    margin: 0 0 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 30px;
+  }
+}
